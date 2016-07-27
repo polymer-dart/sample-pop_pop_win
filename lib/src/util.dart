@@ -26,7 +26,7 @@ void requireArgument(bool truth, String argName, [String message]) {
   }
 }
 
-void requireArgumentNotNull(argument, String argName) {
+void requireArgumentNotNull(Object argument, String argName) {
   if (argument == null) {
     throw new ArgumentError.notNull(argName);
   }
@@ -39,7 +39,7 @@ class Tuple<T1, T2> {
   const Tuple(this.item1, this.item2);
 
   @override
-  bool operator ==(other) {
+  bool operator ==(Object other) {
     return other is Tuple && item1 == other.item1 && item2 == other.item2;
   }
 

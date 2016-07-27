@@ -13,7 +13,7 @@ import 'src/audio.dart' as game_audio;
 import 'src/platform.dart';
 import 'src/stage.dart';
 
-const String _assetDir = 'packages/pop_pop_win/assets';
+const _assetDir = 'packages/pop_pop_win/assets';
 
 Future startGame(PlatformTarget platform) async {
   initPlatform(platform);
@@ -22,7 +22,8 @@ Future startGame(PlatformTarget platform) async {
     ..backgroundColor = 0xb4ad7f
     ..transparent = true;
 
-  var stage = new Stage(html.querySelector('#gameCanvas'), options: options);
+  var stage = new Stage(html.querySelector('#gameCanvas') as html.CanvasElement,
+      options: options);
 
   new RenderLoop()..addStage(stage);
 

@@ -26,4 +26,4 @@ load(
     "//:packages.bzl",
     "bazelify",
 )
-bazelify()
+bazelify(__workspace_dir__)

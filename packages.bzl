@@ -4,244 +4,245 @@
 PUB_PACKAGE_NAME = "pop_pop_win"
 
 # Generated automatically for package:pop_pop_win|pubspec.yaml
-def bazelify():
-    native.new_local_repository(
+def bazelify(w):
+    native.new_http_archive(
         name = "analyzer",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/analyzer-0.29.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/analyzer-0.29.0.tar.gz",
         build_file = ".bazelify/analyzer.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "args",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/args-0.13.6/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/args-0.13.6.tar.gz",
         build_file = ".bazelify/args.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "async",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/async-1.11.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/async-1.11.3.tar.gz",
         build_file = ".bazelify/async.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "barback",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/barback-0.15.2+9/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/barback-0.15.2+9.tar.gz",
         build_file = ".bazelify/barback.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "boolean_selector",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.2/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/boolean_selector-1.0.2.tar.gz",
         build_file = ".bazelify/boolean_selector.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "browser",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/browser-0.10.0+2/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/browser-0.10.0+2.tar.gz",
         build_file = ".bazelify/browser.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "charcode",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/charcode-1.1.0.tar.gz",
         build_file = ".bazelify/charcode.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "collection",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/collection-1.9.1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/collection-1.9.1.tar.gz",
         build_file = ".bazelify/collection.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "convert",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/convert-2.0.1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/convert-2.0.1.tar.gz",
         build_file = ".bazelify/convert.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "crypto",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/crypto-2.0.1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/crypto-2.0.1.tar.gz",
         build_file = ".bazelify/crypto.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "csslib",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/csslib-0.13.2+1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/csslib-0.13.2+1.tar.gz",
         build_file = ".bazelify/csslib.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "dart_to_js_script_rewriter",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/dart_to_js_script_rewriter-1.0.2/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/dart_to_js_script_rewriter-1.0.2.tar.gz",
         build_file = ".bazelify/dart_to_js_script_rewriter.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "glob",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/glob-1.1.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/glob-1.1.3.tar.gz",
         build_file = ".bazelify/glob.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "html",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/html-0.13.1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/html-0.13.1.tar.gz",
         build_file = ".bazelify/html.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "http",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/http-0.11.3+9/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/http-0.11.3+9.tar.gz",
         build_file = ".bazelify/http.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "http_multi_server",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/http_multi_server-2.0.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/http_multi_server-2.0.3.tar.gz",
         build_file = ".bazelify/http_multi_server.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "http_parser",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/http_parser-3.0.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/http_parser-3.0.3.tar.gz",
         build_file = ".bazelify/http_parser.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "isolate",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/isolate-0.2.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/isolate-0.2.3.tar.gz",
         build_file = ".bazelify/isolate.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "logging",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/logging-0.11.3+1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/logging-0.11.3+1.tar.gz",
         build_file = ".bazelify/logging.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "matcher",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.0+2/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/matcher-0.12.0+2.tar.gz",
         build_file = ".bazelify/matcher.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "meta",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/meta-1.0.4/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/meta-1.0.4.tar.gz",
         build_file = ".bazelify/meta.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "mime",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/mime-0.9.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/mime-0.9.3.tar.gz",
         build_file = ".bazelify/mime.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "package_config",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/package_config-1.0.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/package_config-1.0.0.tar.gz",
         build_file = ".bazelify/package_config.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "package_resolver",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/package_resolver-1.0.2/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/package_resolver-1.0.2.tar.gz",
         build_file = ".bazelify/package_resolver.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "path",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/path-1.4.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/path-1.4.0.tar.gz",
         build_file = ".bazelify/path.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "petitparser",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/petitparser-1.5.4/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/petitparser-1.5.4.tar.gz",
         build_file = ".bazelify/petitparser.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "plugin",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/plugin-0.2.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/plugin-0.2.0.tar.gz",
         build_file = ".bazelify/plugin.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "pool",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/pool-1.2.4/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/pool-1.2.4.tar.gz",
         build_file = ".bazelify/pool.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "pub_semver",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/pub_semver-1.3.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/pub_semver-1.3.0.tar.gz",
         build_file = ".bazelify/pub_semver.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "shelf",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/shelf-0.6.7+1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/shelf-0.6.7+1.tar.gz",
         build_file = ".bazelify/shelf.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "shelf_packages_handler",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-1.0.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/shelf_packages_handler-1.0.0.tar.gz",
         build_file = ".bazelify/shelf_packages_handler.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "shelf_static",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/shelf_static-0.2.4/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/shelf_static-0.2.4.tar.gz",
         build_file = ".bazelify/shelf_static.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "shelf_web_socket",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/shelf_web_socket-0.2.1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/shelf_web_socket-0.2.1.tar.gz",
         build_file = ".bazelify/shelf_web_socket.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "source_map_stack_trace",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/source_map_stack_trace-1.1.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/source_map_stack_trace-1.1.3.tar.gz",
         build_file = ".bazelify/source_map_stack_trace.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "source_maps",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/source_maps-0.10.1+1/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/source_maps-0.10.1+1.tar.gz",
         build_file = ".bazelify/source_maps.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "source_span",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/source_span-1.2.4/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/source_span-1.2.4.tar.gz",
         build_file = ".bazelify/source_span.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "stack_trace",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.6.8/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/stack_trace-1.6.8.tar.gz",
         build_file = ".bazelify/stack_trace.BUILD",
     )
-    native.new_local_repository(
+    native.new_git_repository(
         name = "stagexl",
-        path = "/Users/kevmoo/.pub-cache/git/stagexl-58cb3fb3f83fdc482e9e7fc3220018413aabc400/",
+        remote = "https://github.com/bp74/StageXL.git",
+        commit = "58cb3fb3f83fdc482e9e7fc3220018413aabc400",
         build_file = ".bazelify/stagexl.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "stream_channel",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/stream_channel-1.5.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/stream_channel-1.5.0.tar.gz",
         build_file = ".bazelify/stream_channel.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "string_scanner",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.0.0/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/string_scanner-1.0.0.tar.gz",
         build_file = ".bazelify/string_scanner.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "test",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/test-0.12.15+11/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/test-0.12.15+11.tar.gz",
         build_file = ".bazelify/test.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "typed_data",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/typed_data-1.1.3.tar.gz",
         build_file = ".bazelify/typed_data.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "utf",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/utf-0.9.0+3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/utf-0.9.0+3.tar.gz",
         build_file = ".bazelify/utf.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "watcher",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/watcher-0.9.7+3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/watcher-0.9.7+3.tar.gz",
         build_file = ".bazelify/watcher.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "web_socket_channel",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-1.0.4/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/web_socket_channel-1.0.4.tar.gz",
         build_file = ".bazelify/web_socket_channel.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "xml",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/xml-2.4.3/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/xml-2.4.3.tar.gz",
         build_file = ".bazelify/xml.BUILD",
     )
-    native.new_local_repository(
+    native.new_http_archive(
         name = "yaml",
-        path = "/Users/kevmoo/.pub-cache/hosted/pub.dartlang.org/yaml-2.1.12/",
+        url = "https://storage.googleapis.com/pub.dartlang.org/packages/yaml-2.1.12.tar.gz",
         build_file = ".bazelify/yaml.BUILD",
     )
     native.new_local_repository(
         name = "pop_pop_win",
-        path = "/Users/kevmoo/source/github/sample-pop_pop_win/",
+        path = w,
         build_file = ".bazelify/pop_pop_win.BUILD",
     )

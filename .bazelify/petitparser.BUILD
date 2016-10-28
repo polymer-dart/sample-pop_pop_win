@@ -13,7 +13,7 @@ _PUB_DEPS = []
 # Generated automatically for package:petitparser
 dart_library(
     name = "petitparser",
-    srcs = glob(["lib/**"]),
+    srcs = glob(["lib/**"], exclude=["lib/test.dart"]),
     deps = _PUB_DEPS,
     pub_pkg_name = "petitparser",
 )

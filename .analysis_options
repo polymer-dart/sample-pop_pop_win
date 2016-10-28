@@ -1,5 +1,8 @@
 analyzer:
  strong-mode: true
+ exclude:
+    - bazel-*
+    - .bazelify
 linter:
   rules:
     - always_declare_return_types

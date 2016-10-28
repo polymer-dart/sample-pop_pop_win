@@ -5,8 +5,8 @@
 git_repository(
     name = "io_bazel_rules_dart",
     remote = "https://github.com/dart-lang/rules_dart",
-    # Corresponds to https://github.com/dart-lang/rules_dart at branch - raw_ppw_fun
-    commit = "4bdd101f5a669d132bfde72b527825db4bcf8479",
+    # Corresponds to https://github.com/dart-lang/rules_dart at bazel_repo_issue_2000
+    commit = "c60f6de2b728c188055a16bdc505212de41f15e7",
 )
 load(
     "@io_bazel_rules_dart//dart/build_rules:repositories.bzl",
